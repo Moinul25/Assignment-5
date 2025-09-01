@@ -11,3 +11,35 @@
       padding:14px 20px;
       background:white;
 }
+.logo { 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo img{ 
+    width: 55px;
+    height: 55px;
+}
+.logo-title{ 
+   color: #006747;
+   font-weight: 700;
+   font-size: 25px;
+}
+.nav-right{ 
+ display: flex;
+align-items: center;
+gap: 15px;
+}
+.nav-item{ 
+  display: flex;
+  align-items: center;
+  background: #C3F7CF;
+  padding: 6px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  gap: 8px;
+}
+.image{ 
+    width: 30px;
+}
