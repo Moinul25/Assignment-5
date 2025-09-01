@@ -43,3 +43,30 @@ gap: 15px;
 .image{ 
     width: 30px;
 }
+.btn-copy{ 
+ background: #00A63E; 
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero {
+  background: linear-gradient(to right, #006747, #013223); 
+  text-align: center;
+  padding: 15px;
+  color: white;
+  max-width: auto fit-content;
+}
+
+.hero-logo {
+  height: 80px;
+  margin-bottom:0;
+}
+
+.hero h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
