@@ -70,3 +70,115 @@ gap: 15px;
   font-size: 30px;
   margin-bottom: 10px;
 }
+
+hero p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.container {
+  width: 250px;
+  height: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin-top: 10px;
+  font-family:"Hind Madurai", sans-serif;;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header .icon {
+  width: 40px;
+  height: 40px;
+  background: #ffeef2;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.card-header .heart-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card-body h3 {
+  margin: 12px 0 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body p {
+  margin: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.card-body h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.card-body .tag {
+ color: #5C5C5C;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.copy-btn, .call-btn {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 22px;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.copy-btn {
+  background: #f7f7f7;
+  color: #5C5C5C;
+  border: 1px solid #ddd;
+}
+.copy-btn:hover { 
+  background-color: #ecdfdf;
+}
+
+.call-btn {
+  background: #00A63F;
+  color: white;
+}
+.call-btn:hover { 
+  background-color: #5C5C5C;
+}
+.img{ 
+   width: 16px;
+}
+
+
+.cards{
+     flex: 3;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap: 10px;
+      width: 600px;
+      padding: 15px;
+    }
